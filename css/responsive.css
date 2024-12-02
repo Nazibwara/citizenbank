@@ -1,0 +1,72 @@
+@media (max-width: 1600px) {
+  .border-right:after {
+    right: -32px;
+    right: -29px;
+  }
+}
+@media (max-width: 1200px) {
+  .border-right:after {
+    right: -24px;
+  }
+  .testimonial {
+    width: 48%;
+  }
+}
+@media (max-width: 991px) {
+  .advantage {
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .border-right:after {
+    width: 90%;
+    height: 1px;
+    right: 0;
+    top: auto;
+    left: 0;
+  }
+  .testimonials {
+    flex-wrap: wrap;
+  }
+  .citizens-info.cstmPadding {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .header .logo {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .testimonial {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  p.description {
+    margin-bottom: 50px;
+  }
+  .citizens-info h3 {
+    padding: 5px 20px;
+  }
+  .main-content .hero.desktop {
+    display: none;
+  }
+  .main-content .hero.mobile {
+    display: block;
+  }
+  .logo img {
+    width: 60%;
+  }
+}
+@media (max-width: 520px) {
+  .citizens-info p {
+    padding: 15px 25px;
+  }
+  .cstmPadding {
+    padding: 0 18px;
+  }
+  .mainFooter {
+    padding: 25px 18px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

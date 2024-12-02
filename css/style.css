@@ -1,0 +1,271 @@
+body {
+    font-family: "Arial, sans-serif";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.header {
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem 0;
+}
+
+.cstmPadding {
+    padding: 0 38px;
+}
+
+.header .logo {
+    text-align: start;
+}
+
+.main-content .hero.desktop {
+    position: relative;
+    /* height: 449px; */
+}
+
+.main-content .hero .hero-image {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+
+.textCenter {
+    text-align: center;
+}
+
+
+
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.advantage {
+    width: 48%;
+    text-align: start;
+    margin-bottom: 110px;
+    position: relative;
+}
+
+.advantage h2 {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 10px;
+    color: #00945f;
+}
+
+.border-right:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 98%;
+    background-color: #c0c0c0;
+    right: -38px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.advantage p {
+    font-size: 18px;
+    line-height: 31px;
+    color: #888888;
+    margin-top: 0;
+}
+
+.advantage p a {
+    color: #759b24;
+    display: inline-flex;
+    align-items: center;
+}
+.advantage p a:hover{
+    color: #e97300;
+}
+.advantage p a img {
+    margin: 3px 0 0 5px;
+    width: 12px;
+}
+.advantage p a:hover img{
+    filter: invert(38%) sepia(103%) saturate(1383%) hue-rotate(12deg) brightness(101%) contrast(131%);
+}
+.citizens-info {
+    margin: 60px 0;
+}
+
+.citizens-info h3 {
+    background: #00945f;
+    color: #fff;
+    line-height: 31px;
+    font-size: 24px;
+    min-height: 57px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.citizens-info p {
+    font-size: 18px;
+    color: #888888;
+    padding: 25px 60px;
+    line-height: 31px;
+    text-align: start;
+    margin: 0;
+    background-color: #ebf7f5;
+}
+
+.testimonials {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial {
+    text-align: center;
+    width: 33.33%;
+}
+
+
+.testimonial blockquote {
+    font-style: italic;
+    color: #888888;
+    width: 70%;
+    margin: auto;
+
+}
+
+.testimonial p {
+    font-size: 18px;
+    color: #888;
+    line-height: 28px;
+    position: relative;
+}
+
+.testimonial p::after {
+    content: '';
+    position: absolute;
+    background: url('/images/comma.svg') no-repeat;
+    width: 100%;
+    width: 60px;
+    height: 60px;
+    background-size: 100%;
+    left: 0;
+    top: 0;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #00945f;
+    line-height: 28px;
+}
+
+.sectionHead {
+    color: #00945f;
+    padding-bottom: 20px;
+    font-size: 30px;
+    position: relative;
+    line-height: 31px;
+}
+
+.sectionHead:after {
+    content: '';
+    width: 75px;
+    height: 2px;
+    background-color: #00945f;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+
+}
+
+p.description {
+    font-size: 20px;
+    line-height: 31px;
+    text-align: start;
+    color: #888888;
+    margin-bottom: 30px;
+}
+
+a.cta-button {
+    background: #e97300;
+    color: #fff;
+    font-size: 18px;
+    line-height: 31px;
+    padding: 10px 33px;
+    transition: 0.3s ease-in-out;
+}
+a.cta-button:hover{
+    background:#00945f;
+}
+.cstmGap {
+    margin: 55px 0 45px;
+}
+
+.mainFooter {
+    padding: 35px;
+    border-top: 1px solid #00945f;
+    margin-top: 120px;
+}
+
+.footerContent p {
+    font-size: 11px;
+    line-height: 16px;
+    color: #888;
+}
+
+.footerLinks {
+    color: #888;
+    text-decoration: underline;
+}
+
+.footerLinks:hover, .pageslinks ul a:hover{
+    color: #e97300;
+}
+
+.pageslinks ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pageslinks ul a {
+    font-size: 12px;
+    color: #333;
+    line-height: 16px;
+}
+.mainFooter {
+    padding: 35px 38px;
+    border-top: 1px solid #00945f;
+    margin-top: 120px;
+    position: relative;
+}
+
+.mainFooter:after {
+    content: '';
+    position: absolute;
+    background: url('/images/footeside.png') no-repeat;
+    width: 100%;
+    height: 35px;
+    right: 0;
+    background-position: bottom right;
+}
+.main-content .hero.mobile{
+    display: none;
+}
